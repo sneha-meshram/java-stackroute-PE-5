@@ -6,6 +6,7 @@ Input: [Apple, Grape, Melon, Berry]
 Output: [Kiwi, Grape, Mango, Berry]
 Array list after removing all elements []
 
+
 2. Write a program to find the number of counts in the following String. Store the output in
 Map<String,Integer> as key value pair.
 Input : String str = “one one -one___two,,three,one @three*one?two”;
