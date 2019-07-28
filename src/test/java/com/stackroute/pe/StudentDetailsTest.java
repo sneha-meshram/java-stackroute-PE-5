@@ -28,7 +28,8 @@ public class StudentDetailsTest {
         inputStudent.add(detail4);
 
         Collections.sort(inputStudent,new StudentSort());
-        String expected="[Student{id=1, name='stella', age=23}, Student{id=2, name='julie', age=33}, Student{id=3, name='rosie', age=45}}]";
+        String expected="[Student{id=3, name='rosie', age=45}, Student{id=2, name='julie', age=33}, Student{id=1, name='stella', age=23}, Student{id=4, name='julie', age=17}]";
+
         assertEquals(expected, inputStudent.toString());
     }
 
